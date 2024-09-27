@@ -25,7 +25,11 @@ function isValidParentheses(s) {
   }
   
   // Test cases
-  const testCases = [
+  
+
+module.exports = { isValid };
+
+const testCases = [
     "()",
     "()[]{}",
     "(]",
@@ -37,7 +41,3 @@ function isValidParentheses(s) {
     const result = isValidParentheses(testCase);
     console.log(Input: ${testCase}, Output: ${result});
   }
-
-module.exports = { isValid };
-
-
