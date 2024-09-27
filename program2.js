@@ -43,5 +43,5 @@ const testCases = [
   
   for (let testCase of testCases) {
     const result = romanToInt(testCase);
-    console.log(Input: ${testCase}, Output: ${result});
+    console.log(`Input: ${testCase}, Output: ${result}`);
   }
