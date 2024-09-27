@@ -35,3 +35,13 @@ function romanToInt(s) {
   
 
 module.exports={romanToInt}
+const testCases = [
+    "III",
+    "LVIII",
+    "MCMXCIV",
+  ];
+  
+  for (let testCase of testCases) {
+    const result = romanToInt(testCase);
+    console.log(Input: ${testCase}, Output: ${result});
+  }
