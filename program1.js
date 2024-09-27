@@ -39,5 +39,5 @@ const testCases = [
   
   for (let testCase of testCases) {
     const result = isValidParentheses(testCase);
-    console.log('Input: ${testCase}, Output: ${result});
+    console.log(`Input: ${testCase}, Output: ${result}`);
   }
