@@ -32,15 +32,6 @@ function romanToInt(s) {
   }
   
   // Test cases
-  const testCases = [
-    "III",
-    "LVIII",
-    "MCMXCIV",
-  ];
   
-  for (let testCase of testCases) {
-    const result = romanToInt(testCase);
-    console.log(Input: ${testCase}, Output: ${result});
-  }
 
 module.exports={romanToInt}
